@@ -8,10 +8,33 @@
 
 /* selector ID */
 
+#botonera{
+    animation-name: textAlpha;
+    animation-duration: 1s;
+}
+
 #botonera img{
     width: 200px;
 }
 
+#botonera nav ul li a{
+    background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+		}
+
+
+#logo-animado{
+    animation-name: textAlpha;
+    animation-duration: 0.5s;
+}
+
+
+@keyframes textAlpha{
+    from{opacity: 0;}
+    to{opacity: 1;}
+      }                
 
 
 #redes
@@ -20,6 +43,32 @@
     height: 30px;
     padding-right: 10px;
 }
+
+/* EFECTO SLIDE - INICIO */
+
+#slide div{
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 200%;
+}
+
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
+
+
+    
+
+  /* EFECTO SLIDE   - FIN */
+
 
 /* selector clase */
 .bgGreen{
@@ -40,6 +89,20 @@
 .btn-purple{
     background-color: blueviolet;
 }
+
+.text-deco{
+    text-decoration: none;
+}
+
+/* TRANSFORMACIÓN CATÁLOGO - INICIO */
+
+.transformacion:hover{
+  -webkit-transform: scale(9.);
+  transform: scale(.9);
+}
+
+/* TRANSFORMACIÓN CATÁLOGO - FIN */
+
 
 @media (min-widht: 280px) and (max-width: 300px){
     #botonera img{
