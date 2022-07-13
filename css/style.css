@@ -1,19 +1,56 @@
-head .nav #botonera {
+header .navbar {
+  padding: 0%; }
+  header .navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #8e7fdf; }
+
+#botonera {
   animation-name: textAlpha;
   animation-duration: 1s; }
 
-head .nav #botonera img {
+#botonera img {
   width: 200px; }
 
-head .nav #botonera nav ul li a {
+#botonera nav ul li a {
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size .3s; }
 
-head .nav #logo-animado {
+#logo-animado {
   animation-name: textAlpha;
   animation-duration: 0.5s; }
+
+#slide div {
+  animation-duration: 2s;
+  animation-name: slidein; }
+
+.bgGreen {
+  background-color: #1ee678; }
+
+.textcenter {
+  text-align: center; }
+
+@keyframes textAlpha {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 200%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+@media (min-widht: 280px) and (max-width: 300px) {
+  #botonera img {
+    width: 150px; } }
 
 .carousel .carousel-inner img {
   height: auto;
@@ -30,10 +67,37 @@ main #slide div {
 main .textcenter {
   text-align: center; }
 
+#footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000; }
+
+.bgBlack {
+  background-color: black; }
+
+.text-deco {
+  text-decoration: none; }
+
+#redes {
+  width: 40px;
+  height: 30px;
+  padding-right: 10px; }
+
+.principal {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .principal h1 {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: "3mm";
+    font-style: italic; }
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat' , sans-serif; }
 
 body {
-  background: #8e7fdf; }
+  background-color: #8e7fdf; }

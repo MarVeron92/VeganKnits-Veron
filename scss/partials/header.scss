@@ -1,0 +1,78 @@
+header{
+
+    .navbar{
+        padding: 0%;
+        .container-fluid{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background-color:rgb(142, 127, 223,);
+
+        }
+    } 
+
+
+}
+
+
+    #botonera{
+        animation-name: textAlpha;
+        animation-duration: 1s;
+    }
+    
+    #botonera img{
+        width: 200px;
+    }
+    
+    #botonera nav ul li a{
+        background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+            }
+    #logo-animado{
+        animation-name: textAlpha;
+        animation-duration: 0.5s;
+    
+    }
+
+    #slide div{
+        animation-duration: 2s;
+        animation-name: slidein;
+    }
+
+    .bgGreen{
+            background-color: rgb(30, 230, 120);
+        }
+    
+        .textcenter{
+            text-align: center;
+        }
+    
+
+
+@keyframes textAlpha{
+    from{opacity: 0;}
+    to{opacity: 1;}
+    }                
+
+
+    @keyframes slidein {
+        from {
+        margin-left: 100%;
+        width: 200%;
+    }
+    
+        to {
+        margin-left: 0%;
+        width: 100%;
+        }
+    }
+
+
+    @media (min-widht: 280px) and (max-width: 300px){
+        #botonera img{
+            width: 150px;
+        }
+    }

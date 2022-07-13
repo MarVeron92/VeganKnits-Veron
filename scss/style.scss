@@ -1,7 +1,9 @@
-@import "partials/head";
+@import "partials/header";
 @import "partials/carousel";
 @import "partials/main";
 @import "partials/footer";
+@import "partials/variables";
+@import "partials/principal";
 
 
 *{
@@ -12,5 +14,5 @@
 }
 
     body{
-        background: rgb(142, 127, 223,);
+        background-color: rgb(142, 127, 223);
     }
