@@ -1,0 +1,18 @@
+main{
+    section{
+        .bgGreen{
+            background-color: rgb(176, 242, 194)
+        }
+        }
+        
+        #slide div{
+            animation-duration: 2s;
+            animation-name: slidein;
+        }
+        
+
+        .textcenter{
+            text-align: center;
+        }
+    }
+

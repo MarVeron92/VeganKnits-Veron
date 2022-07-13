@@ -1,0 +1,39 @@
+head .nav #botonera {
+  animation-name: textAlpha;
+  animation-duration: 1s; }
+
+head .nav #botonera img {
+  width: 200px; }
+
+head .nav #botonera nav ul li a {
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s; }
+
+head .nav #logo-animado {
+  animation-name: textAlpha;
+  animation-duration: 0.5s; }
+
+.carousel .carousel-inner img {
+  height: auto;
+  object-fit: cover;
+  object-position: center; }
+
+main section .bgGreen {
+  background-color: #b0f2c2; }
+
+main #slide div {
+  animation-duration: 2s;
+  animation-name: slidein; }
+
+main .textcenter {
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat' , sans-serif; }
+
+body {
+  background: #8e7fdf; }

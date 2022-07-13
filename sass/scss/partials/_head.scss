@@ -1,0 +1,27 @@
+head{
+    .nav{
+
+
+        #botonera{
+            animation-name: textAlpha;
+            animation-duration: 1s;
+        }
+
+        #botonera img{
+            width: 200px;
+        }
+    
+        #botonera nav ul li a{
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+        }
+    
+            #logo-animado{
+    animation-name: textAlpha;
+    animation-duration: 0.5s;
+}
+}
+
+}
