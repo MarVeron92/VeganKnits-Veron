@@ -1,10 +1,12 @@
+@import "partials/utilities/font";
+@import "partials/variables";
+@import "partials/utilities/mixin";
+@import "partials/commons";
 @import "partials/header";
 @import "partials/carousel";
 @import "partials/main";
 @import "partials/footer";
-@import "partials/variables";
-@import "partials/principal";
-
+@import "partials/mediaqueries";
 
 *{
     margin: 0;
@@ -13,6 +15,7 @@
 
 }
 
-    body{
-        background-color: rgb(142, 127, 223);
-    }
+body{
+    background-color: $colorPrincipal;
+}
+    

@@ -1,18 +1,14 @@
-main{
-    section{
-        .bgGreen{
-            background-color: rgb(176, 242, 194)
-        }
-        }
-        
+main{   
         #slide div{
             animation-duration: 2s;
             animation-name: slidein;
         }
-        
-
         .textcenter{
             text-align: center;
         }
     }
 
+.transformacion:hover{
+    -webkit-transform: scale(9,0);
+    transform: scale(0.9);
+}

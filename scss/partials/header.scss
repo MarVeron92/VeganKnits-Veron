@@ -7,10 +7,10 @@ header{
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            background-color:rgb(142, 127, 223,);
 
         }
     } 
+
 
 
 }
@@ -42,14 +42,13 @@ header{
         animation-name: slidein;
     }
 
-    .bgGreen{
-            background-color: rgb(30, 230, 120);
+    .bg-box3{
+        background-color: $colorGreen;    
         }
     
         .textcenter{
             text-align: center;
         }
-    
 
 
 @keyframes textAlpha{

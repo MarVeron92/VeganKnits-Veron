@@ -1,11 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap");
+.btn-purple {
+  background-color: #a18b99; }
+
+.bg-box2 {
+  background-color: #e7d8ef; }
+
+.btn-more, .btn-rounded {
+  width: 100px;
+  height: 30px;
+  background: linear-gradient(to top, #8b8488, #454244);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #171616; }
+  .btn-more:hover, .btn-rounded:hover {
+    background-color: #d0c6cd;
+    color: #171616; }
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  line-height: 2.4em;
+  color: white;
+  padding: 4px; }
+
+.bg-btn {
+  background-color: #8b8488; }
+
+.principal {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .principal h1 {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: "3mm";
+    font-style: italic; }
+
+.fw-bolder {
+  font-size: 1rem; }
+
 header .navbar {
   padding: 0%; }
   header .navbar .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    background-color: #8e7fdf; }
+    width: 100%; }
 
 #botonera {
   animation-name: textAlpha;
@@ -28,8 +70,8 @@ header .navbar {
   animation-duration: 2s;
   animation-name: slidein; }
 
-.bgGreen {
-  background-color: #1ee678; }
+.bg-box3 {
+  background-color: #56ea86; }
 
 .textcenter {
   text-align: center; }
@@ -57,9 +99,6 @@ header .navbar {
   object-fit: cover;
   object-position: center; }
 
-main section .bgGreen {
-  background-color: #b0f2c2; }
-
 main #slide div {
   animation-duration: 2s;
   animation-name: slidein; }
@@ -67,14 +106,20 @@ main #slide div {
 main .textcenter {
   text-align: center; }
 
+.transformacion:hover {
+  -webkit-transform: scale(9, 0);
+  transform: scale(0.9); }
+
 #footer {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #000000; }
+  margin-top: auto;
+  width: auto;
+  padding-top: 3%; }
 
-.bgBlack {
-  background-color: black; }
+.bg-box1 {
+  background-color: #171616; }
 
 .text-deco {
   text-decoration: none; }
@@ -84,20 +129,10 @@ main .textcenter {
   height: 30px;
   padding-right: 10px; }
 
-.principal {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center; }
-  .principal h1 {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: "3mm";
-    font-style: italic; }
-
 * {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat' , sans-serif; }
 
 body {
-  background-color: #8e7fdf; }
+  background-color: #e7d8ef; }

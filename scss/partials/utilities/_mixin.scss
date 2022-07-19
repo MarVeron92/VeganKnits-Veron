@@ -1,0 +1,46 @@
+//extends
+.btn-more{
+    width: 100px;
+    height: 30px;
+    background:linear-gradient(to top,#8b8488 , #454244);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#171616;
+    &:hover{
+    background-color: #d0c6cd;
+    color: #171616;
+    }
+}
+
+.btn-rounded{
+    @extend .btn-more;
+}
+
+//mixins
+@mixin texto($size, $interlineado, $color,){
+    font-family: $fontMain;
+    font-size: $size;
+    line-height: $interlineado;
+    color: $color;
+    padding: 4px;
+}
+
+h3{
+    @include texto(2em, 2.4em, white)
+}
+
+//maps
+$paleta: (
+    'uno': #e8dce4 ,
+    'dos': #d0c6cd,
+    'tres':#8b8488,
+    'cuatro':#454244,
+    'cinco': #171616,
+);
+
+.bg-btn{
+    background-color: map-get($map: $paleta, $key:tres );
+
+}
