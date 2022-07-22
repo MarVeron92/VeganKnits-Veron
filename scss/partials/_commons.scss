@@ -1,5 +1,5 @@
 .principal{
-    margin-top: 1rem;
+
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -13,3 +13,32 @@
 
 .fw-bolder {
     font-size:1rem;}
+
+.textcenter{
+    text-align: center;
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.img-fluid{
+    max-width: 100%; 
+    height: auto;
+}
+
+.rounded{
+    border-radius: 15px;
+}
