@@ -1,14 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .principal{
 
     display: flex;
     flex-direction: column;
-    text-align: center;
-    h1{
-        font-family: 'Montserrat' , sans-serif;
-        font-size: "3mm";
-        font-style: italic;
+    text-align: center;   
+}
 
-    }
+h1{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: "3mm";
+    font-style: italic;
+    font-weight: $regular;
+    font-size: $textMd;
+}
+
+h5{
+	font-size: $textSm;
+	font-family: $fontMain;
 }
 
 .fw-bolder {

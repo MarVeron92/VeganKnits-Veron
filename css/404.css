@@ -1,40 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat' , sans-serif; }
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif; }
 
 .bg-box2 {
-  background-color: #e7d8ef; }
+    background-color: #e7d8ef; }
 
 .btn-more, .btn-rounded {
-  width: 100px;
-  height: 30px;
-  background: linear-gradient(to top, #8b8488, #454244);
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #171616; }
-  .btn-more:hover, .btn-rounded:hover {
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(to top, #8b8488, #454244);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #171616; }
+    .btn-more:hover, .btn-rounded:hover {
     background-color: #d0c6cd;
     color: #171616; }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.7em;
-  line-height: 2em;
-  color: white;
-  padding: 4px;
-  font-weight: 400;
-  font-style: italic; }
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7em;
+    line-height: 2em;
+    color: white;
+    padding: 4px;
+    font-weight: 400;
+    font-style: italic; }
 
 .bg-btn {
-  background-color: #8b8488; }
+    background-color: #8b8488; }
 
 header .navbar {
-  padding: 0%; }
-  header .navbar .container-fluid {
+    padding: 0%; }
+    header .navbar .container-fluid {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,3 +167,4 @@ body {
   width: 40px;
   height: 30px;
   padding-right: 10px; }
+

@@ -28,8 +28,11 @@
 }
 
 h3{
-    @include texto(2em, 2.4em, white)
+    @include texto(1.7em, 2em, white);
+    font-weight: $regular;
+    font-style: italic;
 }
+
 
 //maps
 $paleta: (
